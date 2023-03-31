@@ -1,0 +1,78 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 31 Mar, 2023, 1:51:04 PM
+    Author     : DELL
+*/
+
+
+@media screen and (max-width:1000px) {
+    h1{
+        font-size: 8rem;
+    }
+    .logo img {
+        max-width: 20vh;
+        max-height: 20vh;
+    }
+    footer{
+        text-align: end;
+        margin-top: 12%;
+    }
+}
+
+
+@media screen and (max-width:834px) {
+    h1{
+        font-size: 5.5rem;
+    }
+    .logo img {
+        max-width: 20vh;
+        max-height: 20vh;
+    }
+    footer{
+        text-align: end;
+        margin-top: 12%;
+    }
+}
+
+
+@media screen and (max-width:640px) and(max-height:536px) {
+    h1{
+        font-size: 4rem;
+    }
+    .logo img {
+        max-width: 20vh;
+        max-height: 20vh;
+    }
+    footer{
+        text-align: end;
+        margin-top: 12%;
+    }
+}
+
+@media screen and (max-width:534px) {
+    h1{
+        font-size: 3.5rem;
+    }
+    .logo img {
+        max-width: 20vh;
+        max-height: 20vh;
+    }
+    footer{
+        text-align: end;
+        margin-top: 8%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    h1{
+        font-size: 2rem;
+    }
+    .logo img {
+        max-width: 18vh;
+        max-height: 18vh;
+    }
+}

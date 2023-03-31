@@ -1,0 +1,329 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 31 Mar, 2023, 1:52:02 PM
+    Author     : DELL
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap');
+/* 
+font-family: 'Josefin Sans', sans-serif; 
+font-family: 'Poppins', sans-serif;
+font-family: 'Dancing Script', cursive;
+*/
+
+a {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.logo img {
+  font-family: 'Dancing Script', cursive;
+  text-decoration: none;
+  color: #d1d1d1;
+  padding: 0;
+  margin: 0;
+  max-width: 25vh;
+  max-height: 25vh;
+}
+
+.navigation {
+  display: flex;
+  align-items: left;
+  /* max-width: 1380px; */
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  margin-left: 78%;
+  max-height: 80.5px;
+}
+
+.nav-logo .logo1,
+.logo2,
+.logo3 {
+  max-width: 1rem;
+}
+
+.navbar .nav-logo {
+  margin: 25px 9px;
+  color: #d1d1d1;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  /* align-content: flex-end; */
+}
+
+h1 {
+  /* font-family: 'Alkatra', cursive;
+   */
+  font-family: 'Londrina Outline', cursive;
+  font-size: 10rem;
+  font-weight: 50;
+  margin-top: auto;
+  margin-bottom: 0;
+  color: white;
+}
+
+.content p {
+  color: #7f7ff4;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  ;
+}
+
+.row {
+  display: flex;
+  padding: 32px 117px;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left {
+  width: 75%;
+}
+
+span {
+  font-size: 3rem;
+  font-family: 'Dancing Script', cursive;
+  /* text-align: center; */
+
+}
+
+.tech{
+  text-align: center;
+}
+
+.vl {
+  border-right: 2px solid #d1d1d1;
+  height: auto;
+  width: 80px;
+}
+
+.skillContainer{
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+
+.rectangle{
+  /* border: #ffffff 1px solid; */
+  width: 300px;
+  height: 15px;
+  margin-left: 50px;
+  box-sizing: border-box;
+  color: black;
+}
+
+.set{
+  display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+.cl-1{
+  background-color: #f1e648;
+  width: 300px;
+}
+.cl-2{
+  background-color: #5cf148;
+  width: 275px;
+}
+.cl-3{
+  background-color: #48f1be;
+  width: 250px;
+}
+.cl-4{
+  background-color: #e348f1;
+  width: 200px;
+}
+.cl-5{
+  background-color: #4897f1;
+  width: 300px;
+}
+.cl-6{
+  background-color: #f14864;
+  width: 275px;
+
+}
+
+
+.right {
+  width: 25%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  margin-top: -150px;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  text-align: center;
+}
+
+.container ul {
+  text-align: left;
+}
+
+
+
+.blogs .box-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 1.5rem;
+}
+
+.blogs .box-container .box {
+  border-radius: .5rem;
+  overflow: hidden;
+}
+
+.blogs .box-container .box:hover .image h3 {
+  left: 1.5rem;
+}
+
+.blogs .box-container .box:hover .image img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.blogs .box-container .box .image {
+  position: relative;
+  height: 15rem;
+  overflow: hidden;
+  width: 100%;
+}
+
+.blogs .box-container .box .image h3 {
+  position: absolute;
+  z-index: 10;
+  top: 1rem;
+  left: -100%;
+  border-radius: .5rem;
+  padding: .5rem 1rem;
+  background: #fff;
+  color: #130f40;
+  font-size: 1.5rem;
+}
+
+.blogs .box-container .box .image h3 i {
+  padding-right: .5rem;
+  color: #27ae60;
+}
+
+.blogs .box-container .box .image img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.blogs .box-container .box .content {
+  padding: 2rem 1.5rem;
+  background: #f7f7f7;
+}
+
+.blogs .box-container .box .content .tags {
+  padding-bottom: 1rem;
+}
+
+.blogs .box-container .box .content .tags a {
+  font-size: 1.5rem;
+  color: #666;
+  padding-right: .5rem;
+}
+
+.blogs .box-container .box .content .tags a:hover {
+  color: #27ae60;
+}
+
+.blogs .box-container .box .content .tags a i {
+  color: #27ae60;
+  padding-right: .5rem;
+}
+
+.blogs .box-container .box .content h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2rem;
+  color: #130f40;
+  margin: auto;
+}
+
+.blogs .box-container .box .content p {
+  font-size: 1rem;
+  color: #666;
+  padding: 0rem 0;
+  line-height: 1.5;
+}
+
+
+.heading {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.heading span {
+  font-family: 'Satisfy', cursive;
+  font-size: 3rem;
+  color: #27ae60;
+}
+
+.heading h3 {
+  font-size: 3rem;
+  color: #130f40;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: .7rem 1.8rem;
+  font-size: 1.7rem;
+  cursor: pointer;
+  color: #fff;
+  background: #7f7ff4;
+  /* background: #00006e; */
+  border-radius: .5rem;
+}
+
+.btn:hover {
+  background: #00006e;
+}
+
+section {
+  padding: 1rem 9%;
+}
+
+.container-1{
+  text-align: center;
+}
+
+
+footer {
+  text-align: end;
+  /* margin-top: 14%; */
+}
